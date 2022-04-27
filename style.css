@@ -1,0 +1,169 @@
+body{
+    background: #F8F8FF;
+    font-family: Tahoma, Arial;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 1024px;
+    margin: auto;
+}
+
+
+.bg{
+    background-image: url(../projeto-fashion/01.png);
+    height: 535px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 100%;
+    text-align: center;
+}
+
+nav{
+    padding: 13px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
+    background: #000000;
+    background-size: 50px;
+}
+
+nav a{
+    color: #A9A9A9;
+    width: 100%;
+    display: inline-block;
+    padding: 6px 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav a:hover{
+    color: #d0bff1;
+    width: 100%;
+    transition: 0.5s;
+    transform: scale(1.09);
+    text-transform: uppercase;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+.a-img {
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+.a-texto {
+    float: right;
+    padding-right: 30px;
+}
+
+.portifolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.portifolio h1{
+    font-size: 36px;
+    color: #1C1C1C;
+}
+
+.portifolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #696969;
+}
+
+.gallery{
+    color: #4F4F4F;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gallery-text{
+    padding: 19px;
+    color: #696969;
+}
+
+.gallery-sub{
+    color: #696969;
+}
+
+.about{
+    background-color: #675698;
+    padding: 60px;
+    color: white;
+    background-image: url(../projeto-fashion/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+#call{
+    margin: 50px 0;
+}
+
+#call address{
+    color: #60488f;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+.rodape{
+    background: #241546;
+    padding: 10px;
+    font-size: 12px;
+    color: #d1d1d1;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
